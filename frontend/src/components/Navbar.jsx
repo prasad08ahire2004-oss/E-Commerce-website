@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center py-4 font-medium'>
 
-        <img src={assets.logo} className='w-36' alt="Logo" />
+        <Link>
+            <img src={assets.logo} className='w-36' alt="Logo" />
+        </Link>
 
 
         {/* For small screen this ul will be hidden and for large screen it will be visible. For small screen we will use a hamburger menu which will be implemented later. */}
