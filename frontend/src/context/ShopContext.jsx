@@ -1,7 +1,7 @@
-import { createContex } from "react"
+import { createContext } from "react"
 import { products } from "../assets/assets"
 
-export const ShopContext = createContex()
+export const ShopContext = createContext()
 
 const ShopContextProvider = (props) => {
     const currency = '$';
